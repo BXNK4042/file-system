@@ -1,0 +1,38 @@
+1. Print "Hello, World!"
+Goal: Learn C# program structure and console output.
+_________________________________________________________________________
+
+2. Read User Input and Print It
+Goal: Learn how to take string input from the user.
+_________________________________________________________________________
+
+3. Add Two Numbers (int)
+Goal: Learn type declarations and converting string input to integers.
+_________________________________________________________________________
+
+4. Check Even or Odd
+Goal: Practice conditionals and modulo operator.
+_________________________________________________________________________
+
+5. Use a for Loop to Print 1 to 10
+Goal: Understand for loop syntax in C#.
+_________________________________________________________________________
+
+6. Find the Maximum of 3 Numbers (no arrays)
+Goal: Practice if-else logic.
+_________________________________________________________________________
+
+7. Sum of Numbers from 1 to N (using while loop)
+Goal: Learn while loop in C#.
+_________________________________________________________________________
+
+8. Basic Calculator (add, subtract, multiply, divide)
+Goal: Learn switch-case and user choice handling.
+_________________________________________________________________________
+
+9. Check if a Number is Prime (basic logic)
+Goal: Learn nested loops and simple math logic.
+_________________________________________________________________________
+
+10. Reverse a String (without built-in methods)
+Goal: Learn working with characters and loops.
