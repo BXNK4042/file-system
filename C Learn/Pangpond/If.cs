@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class If
+﻿public class If
 {
 
 }

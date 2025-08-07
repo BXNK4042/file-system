@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class Reverse
+﻿public class Reverse
 {
 
 }
