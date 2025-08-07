@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class Loop
+﻿public class Loop
 {
 
 }

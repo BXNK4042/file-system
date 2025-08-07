@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class Prime
+﻿public class Prime
 {
 
 }

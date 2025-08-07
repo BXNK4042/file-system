@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class While
+﻿public class While
 {
 
 }

@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class Cal
+﻿public class Cal
 {
 
 }

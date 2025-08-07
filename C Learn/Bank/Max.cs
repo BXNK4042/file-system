@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class Max
+﻿public class Max
 {
 
 }

@@ -1,6 +1,4 @@
-﻿namespace MyApp;
-
-public class Sum
+﻿public class Sum
 {
 
 }
