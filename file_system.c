@@ -56,22 +56,6 @@ void open_file(const char *filename) {
     printf("Opened '%s' in default program.\n", filename);
 }
 
-// List all files in current directory
-void list_files() {
-    DIR *d;
-    struct dirent *dir;
-    d = opendir(".");
-    if (!d) { perror("Error opening directory"); return; }
-    printf("\n--- Files in current directory ---\n");
-    while ((dir = readdir(d)) != NULL) {
-        if (dir->d_type == DT_REG) { // Only show regular files
-            printf("%s\n", dir->d_name);
-        }
-    }
-    closedir(d);
-    printf("----------------------------------\n");
-}
-
 int main() {
     int choice;
     char filename[100];
@@ -126,9 +110,6 @@ int main() {
                 open_file(filename);
                 break;
             case 6:
-                list_files();
-                break;
-            case 7:
                 printf("Goodbye!\n");
                 exit(0);
             default:
