@@ -43,12 +43,12 @@ int main() {
     char filename[128];
     char content[1024];
 
-    /*printf("Enter filename: ");
+    printf("Enter filename: ");
     fgets(filename, sizeof(filename), stdin);
     filename[strcspn(filename, "\n")] = 0;
     printf("Enter content: ");
     fgets(content, sizeof(content), stdin);
-    create_file(filename, content);*/
+    create_file(filename, content);
 
     /*printf("Enter filename: ");
     fgets(filename, sizeof(filename), stdin);
@@ -57,8 +57,8 @@ int main() {
     fgets(content, sizeof(content), stdin);
     write_file(filename, content);*/
 
-                printf("Enter filename: ");
-                fgets(filename, sizeof(filename), stdin);
-                filename[strcspn(filename, "\n")] = 0;
-                read_file(filename);
+    /*printf("Enter filename: ");
+    fgets(filename, sizeof(filename), stdin);
+    filename[strcspn(filename, "\n")] = 0;
+    read_file(filename);*/
 }
