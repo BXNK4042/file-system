@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
-#include <unistd.h> // For the unlink() function to delete files
+//#include <unistd.h>
 
-// Function to create a new, empty file
 void create_file(const char *filename) {
     FILE *file = fopen(filename, "w");
     if (file == NULL) {
@@ -13,7 +12,6 @@ void create_file(const char *filename) {
     fclose(file);
 }
 
-// Function to write data to a file
 void write_to_file(const char *filename, const char *data) {
     FILE *file = fopen(filename, "w");
     if (file == NULL) {
@@ -25,7 +23,6 @@ void write_to_file(const char *filename, const char *data) {
     fclose(file);
 }
 
-// Function to read data from a file
 void read_from_file(const char *filename) {
     FILE *file = fopen(filename, "r");
     char buffer[100];
@@ -44,30 +41,25 @@ void read_from_file(const char *filename) {
     fclose(file);
 }
 
-// Function to delete a file
-void delete_file(const char *filename) {
-    if (unlink(filename) == 0) {
-        printf("File deleted successfully: %s\n", filename);
-    } else {
-        printf("Error deleting file: %s\n", filename);
-    }
-}
+// void delete_file(const char *filename) {
+//     if (unlink(filename) == 0) {
+//         printf("File deleted successfully: %s\n", filename);
+//     } else {
+//         printf("Error deleting file: %s\n", filename);
+//     }
+// }
 
 int main() {
     const char *filename = "beginner_ops.txt";
     const char *data = "Hello, file system!";
 
-    // 1. Create the file
     create_file(filename);
 
-    // 2. Write data to the file
     write_to_file(filename, data);
 
-    // 3. Read data from the file
     read_from_file(filename);
 
-    // 4. Delete the file
-    delete_file(filename);
+    //delete_file(filename);
 
     return 0;
 }
